@@ -1,2 +1,2 @@
 version=3
-ftp://ftp.kde.org/pub/kde/workspace/libksysguard/([\d\.]+)/src/libksysguard-(.*)\.tar\.xz
+ftp://ftp.kde.org/pub/kde/unstable/plasma/([\d\.]+)/src/libksysguard-(.*)\.tar\.xz
