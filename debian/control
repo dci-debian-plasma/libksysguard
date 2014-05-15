@@ -32,7 +32,7 @@ Homepage: https://projects.kde.org/projects/kde/workspace/libksysguard
 Package: libkf5sysguard-dev
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}, libkf5sysguard5 (= ${binary:Version})
+Depends: ${misc:Depends}, libkf5sysguard5 (= ${binary:Version}),
  libksgrd5 (= ${binary:Version}),
  libksignalplotter5 (= ${binary:Version}),
  liblsofui5 (= ${binary:Version}),
