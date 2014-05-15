@@ -33,6 +33,11 @@ Package: libkf5sysguard-dev
 Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}, libkf5sysguard5 (= ${binary:Version})
+ libksgrd5 (= ${binary:Version}),
+ libksignalplotter5 (= ${binary:Version}),
+ liblsofui5 (= ${binary:Version}),
+ libprocesscore5 (= ${binary:Version}),
+ libprocessui5 (= ${binary:Version})
 Description: library for monitoring your system - development files
  KSysGuard is a program to monitor various elements of your system, or any
  other remote system with the KSysGuard daemon (ksysgardd) installed. 
