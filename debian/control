@@ -146,8 +146,7 @@ Description: library for monitoring your system - shared library
 Package: libkf5sysguard5-data
 Section: libs
 Architecture: any
-Depends: libkf5sysguard5 (= ${binary:Version}),
-         ${misc:Depends},
+Depends: ${misc:Depends},
          ${shlibs:Depends}
 Description: library for monitoring your system - shared library
  KSysGuard is a program to monitor various elements of your system, or any
