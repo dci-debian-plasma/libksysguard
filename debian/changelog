@@ -6,4 +6,7 @@ libksysguard (4:4.97.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * New upstream beta release
 
+  [ José Manuel Santamaría Lema ]
+  * Build depend on libz-dev.
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2014 10:26:19 +0100
