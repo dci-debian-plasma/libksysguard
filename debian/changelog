@@ -1,4 +1,4 @@
-libksysguard (4:5.0.1-0ubuntu1) UNRELEASED; urgency=medium
+libksysguard (4:5.0.2-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream release
@@ -9,7 +9,10 @@ libksysguard (4:5.0.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * New upstream bugfix release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 10 Aug 2014 15:43:41 +0200
+  [ Scarlett Clark ]
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 17 Sep 2014 18:18:17 -0700
 
 libksysguard (4:4.98.0-0ubuntu1) utopic; urgency=medium
 
