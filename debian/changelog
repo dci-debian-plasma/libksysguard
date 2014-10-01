@@ -1,4 +1,4 @@
-libksysguard (4:5.0.2-0ubuntu1) UNRELEASED; urgency=medium
+libksysguard (4:5.0.2-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
 
