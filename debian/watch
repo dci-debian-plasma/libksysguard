@@ -1,4 +1,4 @@
 version=3
-http://download.kde.org/unstable/plasma/([\d\.]+)/src/libksysguard-(.*)\.tar\.xz
+http://download.kde.org/unstable/plasma/([\d\.]+)/libksysguard-(.*)\.tar\.xz
 
 http://download.kde.org/stable/plasma/([\d\.]+)/libksysguard-(.*)\.tar\.xz
