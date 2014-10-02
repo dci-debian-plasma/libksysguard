@@ -1,0 +1,2 @@
+#installed to /etc
+./usr/etc/dbus-1/system.d/org.kde.ksysguard.processlisthelper.conf 
