@@ -149,6 +149,8 @@ Section: libs
 Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends}
+Breaks: libkf5sysguard5 (<< 4:5.0.95)
+Replaces: libkf5sysguard5 (<< 4:5.0.95)
 Description: library for monitoring your system - shared library
  KSysGuard is a program to monitor various elements of your system, or any
  other remote system with the KSysGuard daemon (ksysgardd) installed.
