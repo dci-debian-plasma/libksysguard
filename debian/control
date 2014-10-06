@@ -147,8 +147,7 @@ Description: library for monitoring your system - shared library
 Package: libkf5sysguard5-data
 Section: libs
 Architecture: any
-Depends: ${misc:Depends},
-         ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: libkf5sysguard5 (<< 4:5.0.95)
 Replaces: libkf5sysguard5 (<< 4:5.0.95)
 Description: library for monitoring your system - shared library
