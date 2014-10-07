@@ -12,6 +12,13 @@ libksysguard (4:5.0.95-0ubuntu1) UNRELEASED; urgency=medium
   * Revise build-dependencies to only include direct build dependencies,
     dependencies of build dependencies should be pulled in by the build
     dependencies themselves.
+  * Bump rules to new pkg-kde include for kde frameworks 5
+    + This is to build the package as any other frameworks 5 based package.
+    + Drop the manual path change on the dbus config in the -data.install
+      as the new pkg-kde should automatically make config content go to
+      /etc making the manual move from /usr/etc to /etc pointless.
+    + Drop not-installed as the only filelisted there was the moved /usr/etc/
+      file
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 01 Oct 2014 15:27:56 +0200
 
