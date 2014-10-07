@@ -25,6 +25,8 @@ libksysguard (4:5.0.95-0ubuntu1) UNRELEASED; urgency=medium
       which will give unintended results (namely right now kwindowsystem
       crashes) if there is no window manager. So we are running a more
       advanced setup using autopkgtest and openbox.
+  * libkf5sysguard5-data breaks and conflicts pre-5.0 ksysguard as the
+    dbus processlisthelper.conf previously was in ksysguard.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 01 Oct 2014 15:27:56 +0200
 
