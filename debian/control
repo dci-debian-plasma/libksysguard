@@ -18,6 +18,7 @@ Build-Depends: cmake,
                xvfb
 Standards-Version: 3.9.5
 Section: libs
+XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/workspace/libksysguard
 
 Package: libkf5sysguard-dev

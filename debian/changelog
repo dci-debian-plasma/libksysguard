@@ -19,6 +19,12 @@ libksysguard (4:5.0.95-0ubuntu1) UNRELEASED; urgency=medium
       /etc making the manual move from /usr/etc to /etc pointless.
     + Drop not-installed as the only filelisted there was the moved /usr/etc/
       file
+  * Switch to autopkgtest as test suite and override the build time test.
+    - We need a more advanced setup as internally libksysguard will use
+      kwindowsystem to identify windows running in the current netwm session,
+      which will give unintended results (namely right now kwindowsystem
+      crashes) if there is no window manager. So we are running a more
+      advanced setup using autopkgtest and openbox.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 01 Oct 2014 15:27:56 +0200
 
