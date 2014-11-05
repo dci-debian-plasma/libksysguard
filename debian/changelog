@@ -28,10 +28,6 @@ libksysguard (4:5.1.0.1-0ubuntu1) vivid; urgency=medium
   * libkf5sysguard5-data breaks and conflicts pre-5.0 ksysguard as the
     dbus processlisthelper.conf previously was in ksysguard.
 
-  [ Jonathan Riddell ]
-  * New upstream release
-  * New upstream release with fixed tar
-
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 14 Oct 2014 13:49:37 +0200
 
 libksysguard (4:5.0.2-0ubuntu1) utopic; urgency=medium
@@ -48,8 +44,6 @@ libksysguard (4:5.0.1-0ubuntu1~ubuntu14.10~ppa2) utopic; urgency=medium
   [ Scarlett Clark ]
   * Update watch to http://download.kde.org
 
-  [ Jonathan Riddell ]
-  * New upstream bugfix release
  -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 10 Aug 2014 15:43:41 +0200
 
 libksysguard (4:4.98.0-0ubuntu1) utopic; urgency=medium
