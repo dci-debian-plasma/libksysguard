@@ -39,7 +39,6 @@ Description: library for monitoring your system - development files
  This package contains the files necessary for development.
 
 Package: libkf5sysguard5
-Section: libs
 Architecture: any
 Depends: libkf5sysguard5-data (= ${binary:Version}),
          ${misc:Depends},
@@ -51,7 +50,6 @@ Description: library for monitoring your system - shared library
  This package contains the shared library
 
 Package: libksgrd6
-Section: libs
 Architecture: any
 Depends: libkf5sysguard5-data (= ${binary:Version}),
          ${misc:Depends},
@@ -63,7 +61,6 @@ Description: library for monitoring your system - shared library
  This package contains the shared library
 
 Package: libksignalplotter6
-Section: libs
 Architecture: any
 Depends: libkf5sysguard5 (= ${binary:Version}),
          libkf5sysguard5-data (= ${binary:Version}),
@@ -76,7 +73,6 @@ Description: library for monitoring your system - shared library
  This package contains the shared library
 
 Package: liblsofui6
-Section: libs
 Architecture: any
 Depends: libkf5sysguard5-data (= ${binary:Version}),
          ${misc:Depends},
@@ -88,7 +84,6 @@ Description: library for monitoring your system - shared library
  This package contains the shared library
 
 Package: libprocesscore6
-Section: libs
 Architecture: any
 Depends: libkf5sysguard5-data (= ${binary:Version}),
          ${misc:Depends},
@@ -100,7 +95,6 @@ Description: library for monitoring your system - shared library
  This package contains the shared library
 
 Package: libprocessui6
-Section: libs
 Architecture: any
 Depends: libkf5sysguard5-data (= ${binary:Version}),
          ${misc:Depends},
@@ -112,7 +106,6 @@ Description: library for monitoring your system - shared library
  This package contains the shared library
 
 Package: libkf5sysguard5-data
-Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: ksysguard (<< 4:5.0.0), libkf5sysguard5 (<< 4:5.0.95)
