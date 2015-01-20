@@ -1,1 +1,2 @@
-usr/lib/*/libprocesscore.so.*
+usr/lib/*/libprocesscore.so.5
+usr/lib/*/libprocesscore.so.5.*

@@ -1,1 +1,2 @@
-usr/lib/*/libksignalplotter.so.*
+usr/lib/*/libksignalplotter.so.5
+usr/lib/*/libksignalplotter.so.5.*
