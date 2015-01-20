@@ -1,1 +1,2 @@
-usr/lib/*/liblsofui.so.*
+usr/lib/*/liblsofui.so.5
+usr/lib/*/liblsofui.so.5.*
