@@ -25,11 +25,11 @@ Package: libkf5sysguard-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5sysguard5 (= ${binary:Version}),
-         libksgrd5 (= ${binary:Version}),
-         libksignalplotter5 (= ${binary:Version}),
-         liblsofui5 (= ${binary:Version}),
-         libprocesscore5 (= ${binary:Version}),
-         libprocessui5 (= ${binary:Version}),
+         libksgrd6 (= ${binary:Version}),
+         libksignalplotter6 (= ${binary:Version}),
+         liblsofui6 (= ${binary:Version}),
+         libprocesscore6 (= ${binary:Version}),
+         libprocessui6 (= ${binary:Version}),
          ${misc:Depends}
 Conflicts: kde-workspace-dev
 Description: library for monitoring your system - development files
@@ -50,7 +50,7 @@ Description: library for monitoring your system - shared library
  .
  This package contains the shared library
 
-Package: libksgrd5
+Package: libksgrd6
 Section: libs
 Architecture: any
 Depends: libkf5sysguard5-data (= ${binary:Version}),
@@ -62,7 +62,7 @@ Description: library for monitoring your system - shared library
  .
  This package contains the shared library
 
-Package: libksignalplotter5
+Package: libksignalplotter6
 Section: libs
 Architecture: any
 Depends: libkf5sysguard5 (= ${binary:Version}),
@@ -75,7 +75,7 @@ Description: library for monitoring your system - shared library
  .
  This package contains the shared library
 
-Package: liblsofui5
+Package: liblsofui6
 Section: libs
 Architecture: any
 Depends: libkf5sysguard5-data (= ${binary:Version}),
@@ -87,7 +87,7 @@ Description: library for monitoring your system - shared library
  .
  This package contains the shared library
 
-Package: libprocesscore5
+Package: libprocesscore6
 Section: libs
 Architecture: any
 Depends: libkf5sysguard5-data (= ${binary:Version}),
@@ -99,7 +99,7 @@ Description: library for monitoring your system - shared library
  .
  This package contains the shared library
 
-Package: libprocessui5
+Package: libprocessui6
 Section: libs
 Architecture: any
 Depends: libkf5sysguard5-data (= ${binary:Version}),
