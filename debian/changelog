@@ -1,8 +1,8 @@
-libksysguard (4:5.2.0-0ubuntu1) UNRELEASED; urgency=medium
+libksysguard (4:5.2.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Harald Sitter <sitter@kde.org>  Mon, 26 Jan 2015 13:45:24 +0100
+ -- Harald Sitter <sitter@kde.org>  Tue, 27 Jan 2015 14:55:34 +0100
 
 libksysguard (4:5.1.95-0ubuntu1) vivid; urgency=medium
 
