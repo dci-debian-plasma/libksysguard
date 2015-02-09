@@ -9,6 +9,7 @@ libksysguard (4:5.2.0-1~) UNRELEASED; urgency=medium
   * Update install files.
   * Add acc autopkgtests.
   * Add missing dev dependency (thanks to acc headers check)
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Feb 2015 22:27:09 +0100
 

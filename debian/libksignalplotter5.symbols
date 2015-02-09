@@ -1,5 +1,5 @@
-# SymbolsHelper-Confirmed: 5.2.50+git amd64
-libksignalplotter.so.6 libksignalplotter6 #MINVER#
+# SymbolsHelper-Confirmed: 4:5.1.0 amd64
+libksignalplotter.so.5 libksignalplotter5 #MINVER#
  _ZN14KSignalPlotter10paintEventEP11QPaintEvent@Base 5.2.50+git
  _ZN14KSignalPlotter10removeBeamEi@Base 5.2.50+git
  _ZN14KSignalPlotter11changeEventEP6QEvent@Base 5.2.50+git

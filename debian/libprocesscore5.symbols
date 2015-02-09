@@ -1,11 +1,10 @@
-# SymbolsHelper-Confirmed: 5.2.50+git amd64
-libprocesscore.so.6 libprocesscore6 #MINVER#
+# SymbolsHelper-Confirmed: 4:5.2.0 amd64
+libprocesscore.so.5 libprocesscore5 #MINVER#
  _ZN9KSysGuard7Process10setCommandE7QString@Base 5.2.50+git
  _ZN9KSysGuard7Process10setSysTimeEx@Base 5.2.50+git
  _ZN9KSysGuard7Process11setSysUsageEi@Base 5.2.50+git
  _ZN9KSysGuard7Process11setUserTimeEx@Base 5.2.50+git
  _ZN9KSysGuard7Process12setNiceLevelEi@Base 5.2.50+git
- _ZN9KSysGuard7Process12setStartTimeEx@Base 5.2.50+git
  _ZN9KSysGuard7Process12setTracerpidEx@Base 5.2.50+git
  _ZN9KSysGuard7Process12setUserUsageEi@Base 5.2.50+git
  _ZN9KSysGuard7Process12setschedulerENS0_9SchedulerE@Base 5.2.50+git

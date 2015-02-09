@@ -1,5 +1,5 @@
-# SymbolsHelper-Confirmed: 5.2.50+git amd64
-libksgrd.so.6 libksgrd6 #MINVER#
+# SymbolsHelper-Confirmed: 4:5.1.0 amd64
+libksgrd.so.5 libksgrd5 #MINVER#
  _ZN5KSGRD11SensorAgent11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.50+git
  _ZN5KSGRD11SensorAgent11qt_metacastEPKc@Base 5.2.50+git
  _ZN5KSGRD11SensorAgent11reconfigureEPKS0_@Base 5.2.50+git
