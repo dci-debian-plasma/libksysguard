@@ -36,11 +36,11 @@ Package: libkf5sysguard-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5sysguard-bin (= ${binary:Version}),
-         libksgrd6 (= ${binary:Version}),
-         libksignalplotter6 (= ${binary:Version}),
-         liblsofui6 (= ${binary:Version}),
-         libprocesscore6 (= ${binary:Version}),
-         libprocessui6 (= ${binary:Version}),
+         libksgrd5 (= ${binary:Version}),
+         libksignalplotter5 (= ${binary:Version}),
+         liblsofui5 (= ${binary:Version}),
+         libprocesscore5 (= ${binary:Version}),
+         libprocessui5 (= ${binary:Version}),
          ${misc:Depends}
 Conflicts: kde-workspace-dev
 Description: library for monitoring your system - development files
@@ -51,11 +51,11 @@ Description: library for monitoring your system - development files
 
 Package: libkf5sysguard-bin
 Architecture: any
-Depends: libkf5sysguard-data (= ${binary:Version}),
+Depends: libkf5sysguard-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: libkf5sysguard5 (<< ${source:Version})
-Replaces: libkf5sysguard5 (<< ${source:Version})
+Breaks: libkf5sysguard5 (<< 4:5.2.0)
+Replaces: libkf5sysguard5 (<< 4:5.2.0)
 Description: library for monitoring your system - shared library
  KSysGuard is a program to monitor various elements of your system, or any
  other remote system with the KSysGuard daemon (ksysgardd) installed.
@@ -70,9 +70,9 @@ Depends: libkf5sysguard-bin (>= ${source:Version}), ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
-Package: libksgrd6
+Package: libksgrd5
 Architecture: any
-Depends: libkf5sysguard-data (= ${binary:Version}),
+Depends: libkf5sysguard-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: library for monitoring your system - shared library
@@ -81,10 +81,10 @@ Description: library for monitoring your system - shared library
  .
  This package contains the shared library
 
-Package: libksignalplotter6
+Package: libksignalplotter5
 Architecture: any
 Depends: libkf5sysguard-bin (= ${binary:Version}),
-         libkf5sysguard-data (= ${binary:Version}),
+         libkf5sysguard-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: library for monitoring your system - shared library
@@ -93,9 +93,9 @@ Description: library for monitoring your system - shared library
  .
  This package contains the shared library
 
-Package: liblsofui6
+Package: liblsofui5
 Architecture: any
-Depends: libkf5sysguard-data (= ${binary:Version}),
+Depends: libkf5sysguard-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: library for monitoring your system - shared library
@@ -104,9 +104,9 @@ Description: library for monitoring your system - shared library
  .
  This package contains the shared library
 
-Package: libprocesscore6
+Package: libprocesscore5
 Architecture: any
-Depends: libkf5sysguard-data (= ${binary:Version}),
+Depends: libkf5sysguard-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: library for monitoring your system - shared library
@@ -115,9 +115,9 @@ Description: library for monitoring your system - shared library
  .
  This package contains the shared library
 
-Package: libprocessui6
+Package: libprocessui5
 Architecture: any
-Depends: libkf5sysguard-data (= ${binary:Version}),
+Depends: libkf5sysguard-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: library for monitoring your system - shared library
@@ -127,10 +127,10 @@ Description: library for monitoring your system - shared library
  This package contains the shared library
 
 Package: libkf5sysguard-data
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: ksysguard (<< 4:5.0.0), libkf5sysguard-bin (<< 4:5.0.95), libkf5sysguard5-data (<< ${source:Version})
-Replaces: ksysguard (<< 4:5.0.0), libkf5sysguard-bin (<< 4:5.0.95), libkf5sysguard5-data (<< ${source:Version})
+Breaks: ksysguard (<< 4:5.0.0), libkf5sysguard-bin (<< 4:5.0.95), libkf5sysguard5-data (<< 4:5.2.0)
+Replaces: ksysguard (<< 4:5.0.0), libkf5sysguard-bin (<< 4:5.0.95), libkf5sysguard5-data (<< 4:5.2.0)
 Description: library for monitoring your system - shared library
  KSysGuard is a program to monitor various elements of your system, or any
  other remote system with the KSysGuard daemon (ksysgardd) installed.
@@ -149,7 +149,7 @@ Package: libkf5sysguard-dbg
 Section: debug
 Priority: extra
 Architecture: any
-Depends: ${misc:Depends}, libprocessui6 (= ${binary:Version}) | libprocesscore6 (= ${binary:Version}) | liblsofui6 (= ${binary:Version}) | libksignalplotter6 (= ${binary:Version}) | libksgrd6 (= ${binary:Version})
+Depends: ${misc:Depends}, libprocessui5 (= ${binary:Version}) | libprocesscore5 (= ${binary:Version}) | liblsofui5 (= ${binary:Version}) | libksignalplotter5 (= ${binary:Version}) | libksgrd5 (= ${binary:Version})
 Recommends: libqt5-dbg
 Description: library for monitoring your system - debug info
  KSysGuard is a program to monitor various elements of your system, or any
