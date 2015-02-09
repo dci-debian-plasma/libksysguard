@@ -1,5 +1,6 @@
 Source: libksysguard
-Priority: extra
+Section: libs
+Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
@@ -17,7 +18,6 @@ Build-Depends: cmake,
                xauth,
                xvfb
 Standards-Version: 3.9.5
-Section: libs
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/workspace/libksysguard
 
@@ -52,10 +52,10 @@ Description: library for monitoring your system - shared library
  This package contains the shared library
 
 Package: libkf5sysguard5
-Depends: libkf5sysguard-bin (>= ${source:Version}), ${misc:Depends}
-Architecture: all
 Priority: extra
 Section: oldlibs
+Architecture: all
+Depends: libkf5sysguard-bin (>= ${source:Version}), ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
@@ -127,18 +127,19 @@ Description: library for monitoring your system - shared library
  This package contains the data files
 
 Package: libkf5sysguard5-data
-Depends: libkf5sysguard-data (>= ${source:Version}), ${misc:Depends}
-Architecture: all
-Priority: extra
 Section: oldlibs
+Priority: extra
+Architecture: all
+Depends: libkf5sysguard-data (>= ${source:Version}), ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: libkf5sysguard-dbg
 Section: debug
+Priority: extra
 Architecture: any
-Recommends: libqt5-dbg
 Depends: ${misc:Depends}, libprocessui6 (= ${binary:Version}) | libprocesscore6 (= ${binary:Version}) | liblsofui6 (= ${binary:Version}) | libksignalplotter6 (= ${binary:Version}) | libksgrd6 (= ${binary:Version})
+Recommends: libqt5-dbg
 Description: library for monitoring your system - debug info
  KSysGuard is a program to monitor various elements of your system, or any
  other remote system with the KSysGuard daemon (ksysgardd) installed.
