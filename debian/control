@@ -41,6 +41,9 @@ Depends: libkf5sysguard-bin (= ${binary:Version}),
          liblsofui5 (= ${binary:Version}),
          libprocesscore5 (= ${binary:Version}),
          libprocessui5 (= ${binary:Version}),
+         libkf5config-dev,
+         libkf5i18n-dev,
+         qtbase5-dev,
          ${misc:Depends}
 Conflicts: kde-workspace-dev
 Description: library for monitoring your system - development files
