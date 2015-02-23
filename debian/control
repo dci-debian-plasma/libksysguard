@@ -25,11 +25,11 @@ Package: libkf5sysguard-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5sysguard-bin (= ${binary:Version}),
-         libksgrd6 (= ${binary:Version}),
-         libksignalplotter6 (= ${binary:Version}),
-         liblsofui6 (= ${binary:Version}),
-         libprocesscore6 (= ${binary:Version}),
-         libprocessui6 (= ${binary:Version}),
+         libksgrd7 (= ${binary:Version}),
+         libksignalplotter7 (= ${binary:Version}),
+         liblsofui7 (= ${binary:Version}),
+         libprocesscore7 (= ${binary:Version}),
+         libprocessui7 (= ${binary:Version}),
          ${misc:Depends}
 Conflicts: kde-workspace-dev
 Description: library for monitoring your system - development files
@@ -59,7 +59,7 @@ Section: oldlibs
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
-Package: libksgrd6
+Package: libksgrd7
 Architecture: any
 Depends: libkf5sysguard-data (= ${binary:Version}),
          ${misc:Depends},
@@ -70,7 +70,7 @@ Description: library for monitoring your system - shared library
  .
  This package contains the shared library
 
-Package: libksignalplotter6
+Package: libksignalplotter7
 Architecture: any
 Depends: libkf5sysguard-bin (= ${binary:Version}),
          libkf5sysguard-data (= ${binary:Version}),
@@ -82,7 +82,7 @@ Description: library for monitoring your system - shared library
  .
  This package contains the shared library
 
-Package: liblsofui6
+Package: liblsofui7
 Architecture: any
 Depends: libkf5sysguard-data (= ${binary:Version}),
          ${misc:Depends},
@@ -93,7 +93,7 @@ Description: library for monitoring your system - shared library
  .
  This package contains the shared library
 
-Package: libprocesscore6
+Package: libprocesscore7
 Architecture: any
 Depends: libkf5sysguard-data (= ${binary:Version}),
          ${misc:Depends},
@@ -104,7 +104,7 @@ Description: library for monitoring your system - shared library
  .
  This package contains the shared library
 
-Package: libprocessui6
+Package: libprocessui7
 Architecture: any
 Depends: libkf5sysguard-data (= ${binary:Version}),
          ${misc:Depends},
@@ -138,7 +138,7 @@ Package: libkf5sysguard-dbg
 Section: debug
 Architecture: any
 Recommends: libqt5-dbg
-Depends: ${misc:Depends}, libprocessui6 (= ${binary:Version}) | libprocesscore6 (= ${binary:Version}) | liblsofui6 (= ${binary:Version}) | libksignalplotter6 (= ${binary:Version}) | libksgrd6 (= ${binary:Version})
+Depends: ${misc:Depends}, libprocessui7 (= ${binary:Version}) | libprocesscore7 (= ${binary:Version}) | liblsofui7 (= ${binary:Version}) | libksignalplotter7 (= ${binary:Version}) | libksgrd7 (= ${binary:Version})
 Description: library for monitoring your system - debug info
  KSysGuard is a program to monitor various elements of your system, or any
  other remote system with the KSysGuard daemon (ksysgardd) installed.
