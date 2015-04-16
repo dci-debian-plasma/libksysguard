@@ -20,6 +20,8 @@ Standards-Version: 3.9.5
 Section: libs
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/workspace/libksysguard
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/libksysguard.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/libksysguard.git
 
 Package: libkf5sysguard-dev
 Section: libdevel
