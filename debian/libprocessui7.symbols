@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:5.1.0 amd64
-libprocessui.so.5 libprocessui5 #MINVER#
+libprocessui.so.7 libprocessui7 #MINVER#
  _ZN11KTextEditVT11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.50+git
  _ZN11KTextEditVT11qt_metacastEPKc@Base 5.2.50+git
  _ZN11KTextEditVT12insertVTCharERK5QChar@Base 5.2.50+git

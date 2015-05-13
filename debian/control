@@ -39,11 +39,11 @@ Architecture: any
 Depends: libkf5config-dev,
          libkf5i18n-dev,
          libkf5sysguard-bin (= ${binary:Version}),
-         libksgrd5 (= ${binary:Version}),
-         libksignalplotter5 (= ${binary:Version}),
-         liblsofui5 (= ${binary:Version}),
-         libprocesscore5 (= ${binary:Version}),
-         libprocessui5 (= ${binary:Version}),
+         libksgrd7 (= ${binary:Version}),
+         libksignalplotter7 (= ${binary:Version}),
+         liblsofui7 (= ${binary:Version}),
+         libprocesscore7 (= ${binary:Version}),
+         libprocessui7 (= ${binary:Version}),
          qtbase5-dev (>= 5.4),
          ${misc:Depends}
 Conflicts: kde-workspace-dev
@@ -74,7 +74,7 @@ Depends: libkf5sysguard-bin (>= ${source:Version}), ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
-Package: libksgrd5
+Package: libksgrd7
 Architecture: any
 Depends: libkf5sysguard-data (= ${source:Version}),
          ${misc:Depends},
@@ -85,7 +85,7 @@ Description: library for monitoring your system - shared library
  .
  This package contains the shared library
 
-Package: libksignalplotter5
+Package: libksignalplotter7
 Architecture: any
 Depends: libkf5sysguard-bin (= ${binary:Version}),
          libkf5sysguard-data (= ${source:Version}),
@@ -97,7 +97,7 @@ Description: library for monitoring your system - shared library
  .
  This package contains the shared library
 
-Package: liblsofui5
+Package: liblsofui7
 Architecture: any
 Depends: libkf5sysguard-data (= ${source:Version}),
          ${misc:Depends},
@@ -108,7 +108,7 @@ Description: library for monitoring your system - shared library
  .
  This package contains the shared library
 
-Package: libprocesscore5
+Package: libprocesscore7
 Architecture: any
 Depends: libkf5sysguard-data (= ${source:Version}),
          ${misc:Depends},
@@ -119,7 +119,7 @@ Description: library for monitoring your system - shared library
  .
  This package contains the shared library
 
-Package: libprocessui5
+Package: libprocessui7
 Architecture: any
 Depends: libkf5sysguard-data (= ${source:Version}),
          ${misc:Depends},
@@ -157,7 +157,7 @@ Package: libkf5sysguard-dbg
 Section: debug
 Priority: extra
 Architecture: any
-Depends: libprocessui5 (= ${binary:Version}) | libprocesscore5 (= ${binary:Version}) | liblsofui5 (= ${binary:Version}) | libksignalplotter5 (= ${binary:Version}) | libksgrd5 (= ${binary:Version}),
+Depends: libprocessui7 (= ${binary:Version}) | libprocesscore7 (= ${binary:Version}) | liblsofui7 (= ${binary:Version}) | libksignalplotter7 (= ${binary:Version}) | libksgrd7 (= ${binary:Version}),
          ${misc:Depends}
 Recommends: libqt5-dbg
 Description: library for monitoring your system - debug info

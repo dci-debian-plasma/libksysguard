@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:5.2.0 amd64
-libprocesscore.so.5 libprocesscore5 #MINVER#
+libprocesscore.so.7 libprocesscore7 #MINVER#
  _ZN9KSysGuard7Process10setCommandE7QString@Base 5.2.50+git
  _ZN9KSysGuard7Process10setSysTimeEx@Base 5.2.50+git
  _ZN9KSysGuard7Process11setSysUsageEi@Base 5.2.50+git

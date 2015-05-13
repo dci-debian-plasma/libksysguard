@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:5.1.0 amd64
-liblsofui.so.5 liblsofui5 #MINVER#
+liblsofui.so.7 liblsofui7 #MINVER#
  _ZN11KLsofWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.50+git
  _ZN11KLsofWidget11qt_metacastEPKc@Base 5.2.50+git
  _ZN11KLsofWidget16staticMetaObjectE@Base 5.2.50+git
