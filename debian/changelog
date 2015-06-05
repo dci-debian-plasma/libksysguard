@@ -1,4 +1,4 @@
-libksysguard (4:5.3.1-0ubuntu1) UNRELEASED; urgency=medium
+libksysguard (4:5.3.1-0ubuntu1) wily; urgency=medium
 
   [ Jonathan Riddell ]
   * Plasma 5.3 beta
@@ -11,7 +11,7 @@ libksysguard (4:5.3.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 04 Jun 2015 20:29:52 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 05 Jun 2015 02:36:19 +0200
 
 libksysguard (4:5.2.2-0ubuntu1) vivid; urgency=medium
 
