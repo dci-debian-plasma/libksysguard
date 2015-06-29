@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    5.2.0
+</version>
+
+<headers>
+    /usr/include/ksysguard/
+</headers>
+
+<libs>
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libksgrd.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libksignalplotter.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/liblsofui.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libprocesscore.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libprocessui.so
+</libs>
+
+<gcc_options>
+    -fPIC
+</gcc_options>
+
+</descriptor>

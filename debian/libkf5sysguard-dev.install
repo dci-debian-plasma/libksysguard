@@ -1,3 +1,7 @@
-usr/include/*
-usr/lib/*/*.so
-usr/lib/*/cmake/*
+usr/include/ksysguard/
+usr/lib/*/cmake/KF5SysGuard/
+usr/lib/*/libksgrd.so
+usr/lib/*/libksignalplotter.so
+usr/lib/*/liblsofui.so
+usr/lib/*/libprocesscore.so
+usr/lib/*/libprocessui.so
