@@ -1,9 +1,9 @@
-libksysguard (4:5.3.2-1~) UNRELEASED; urgency=medium
+libksysguard (4:5.3.2-1) unstable; urgency=medium
 
   * New upstream release (5.3.2).
   * Update copyright information.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 12:26:37 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 23:15:57 +0200
 
 libksysguard (4:5.3.1-0ubuntu1) wily; urgency=medium
 
