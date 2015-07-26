@@ -1,3 +1,11 @@
+libksysguard (4:5.3.2-0ubuntu2) wily; urgency=medium
+
+  * Non-maintainer upload.
+  * Update symbols files: mark as optional the symbols gone after
+    building with GCC 5
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 22 Jul 2015 20:05:10 +0200
+
 libksysguard (4:5.3.2-0ubuntu1) wily; urgency=medium
 
   * New upstream release
@@ -19,7 +27,7 @@ libksysguard (4:5.3.1-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 05 Jun 2015 02:36:19 +0200
 
-libksysguard (4:5.3.1-1~) UNRELEASED; urgency=medium
+libksysguard (4:5.3.1-1~) wily; urgency=medium
 
   * New upstream release (5.3.0).
   * New upstream release (5.3.1).
