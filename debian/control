@@ -28,7 +28,6 @@ Build-Depends: cmake (>= 2.8.12),
                xvfb,
                zlib1g-dev
 Standards-Version: 3.9.6
-XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/workspace/libksysguard
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/libksysguard.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/libksysguard.git
