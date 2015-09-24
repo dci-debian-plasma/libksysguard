@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.5.80+git20150917.2240 amd64 i386
+# SymbolsHelper-Confirmed: 4:5.4.1+git20150924.0048 amd64 i386
 libksgrd.so.7 libksgrd7 #MINVER#
  _ZN5KSGRD11SensorAgent11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.50+git
  _ZN5KSGRD11SensorAgent11qt_metacastEPKc@Base 5.2.50+git
