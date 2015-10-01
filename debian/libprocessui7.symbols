@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.4.0 amd64
+# SymbolsHelper-Confirmed: 4:5.4.1 amd64 arm64 armel armhf hppa i386 mips mipsel powerpc ppc64 ppc64el s390x
 libprocessui.so.7 libprocessui7 #MINVER#
  _ZN11KTextEditVT11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.50+git
  _ZN11KTextEditVT11qt_metacastEPKc@Base 5.2.50+git
@@ -9,9 +9,6 @@ libprocessui.so.7 libprocessui7 #MINVER#
  _ZN11KTextEditVT23setParseAnsiEscapeCodesEb@Base 5.2.50+git
  _ZN11KTextEditVTC1EP7QWidget@Base 5.2.50+git
  _ZN11KTextEditVTC2EP7QWidget@Base 5.2.50+git
- (optional=gccinternal)_ZN11KTextEditVTD0Ev@Base 5.2.50+git
- (optional=gccinternal)_ZN11KTextEditVTD1Ev@Base 5.2.50+git
- (optional=gccinternal)_ZN11KTextEditVTD2Ev@Base 5.2.50+git
  (optional=templinst)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 5.2.50+git
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 5.2.50+git
  _ZN12ProcessModel10getProcessEx@Base 5.2.50+git
@@ -84,7 +81,7 @@ libprocessui.so.7 libprocessui7 #MINVER#
  _ZN20KSysGuardProcessListD2Ev@Base 5.2.50+git
  _ZNK11KTextEditVT10metaObjectEv@Base 5.2.50+git
  _ZNK11KTextEditVT20parseAnsiEscapeCodesEv@Base 5.2.50+git
- (optional=templinst)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 5.2.50+git
+ (optional=templinst|arch=!arm64)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 5.2.50+git
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 5.2.50+git
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 5.2.50+git
  _ZNK12ProcessModel10headerDataEiN2Qt11OrientationEi@Base 5.2.50+git
@@ -144,4 +141,3 @@ libprocessui.so.7 libprocessui7 #MINVER#
  _ZTV13ProcessFilter@Base 5.2.50+git
  _ZTV20KSysGuardProcessList@Base 5.2.50+git
  (c++)"non-virtual thunk to KSysGuardProcessList::~KSysGuardProcessList()@Base" 5.2.50+git
- (optional=gccinternal|c++)"non-virtual thunk to KTextEditVT::~KTextEditVT()@Base" 5.2.50+git
