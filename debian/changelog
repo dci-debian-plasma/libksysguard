@@ -1,3 +1,9 @@
+libksysguard (4:5.4.2-0ubuntu2) UNRELEASED; urgency=medium
+
+  * Annotate symbol correctly to fix dpkg-gensymbols build failure
+
+ -- Harald Sitter <sitter@kde.org>  Wed, 07 Oct 2015 06:38:47 +0200
+
 libksysguard (4:5.4.2-0ubuntu1) UNRELEASED; urgency=medium
 
   * Vivid backport
