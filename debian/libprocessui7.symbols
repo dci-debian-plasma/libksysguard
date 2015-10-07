@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.3.2 amd64
+# SymbolsHelper-Confirmed: 4:5.4.2+git20151007.0523 amd64 i386
 libprocessui.so.7 libprocessui7 #MINVER#
  _ZN11KTextEditVT11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.50+git
  _ZN11KTextEditVT11qt_metacastEPKc@Base 5.2.50+git
@@ -9,9 +9,6 @@ libprocessui.so.7 libprocessui7 #MINVER#
  _ZN11KTextEditVT23setParseAnsiEscapeCodesEb@Base 5.2.50+git
  _ZN11KTextEditVTC1EP7QWidget@Base 5.2.50+git
  _ZN11KTextEditVTC2EP7QWidget@Base 5.2.50+git
- (optional)_ZN11KTextEditVTD0Ev@Base 5.2.50+git
- (optional)_ZN11KTextEditVTD1Ev@Base 5.2.50+git
- (optional)_ZN11KTextEditVTD2Ev@Base 5.2.50+git
  (optional=templinst)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 5.2.50+git
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 5.2.50+git
  _ZN12ProcessModel10getProcessEx@Base 5.2.50+git
@@ -144,4 +141,3 @@ libprocessui.so.7 libprocessui7 #MINVER#
  _ZTV13ProcessFilter@Base 5.2.50+git
  _ZTV20KSysGuardProcessList@Base 5.2.50+git
  (c++)"non-virtual thunk to KSysGuardProcessList::~KSysGuardProcessList()@Base" 5.2.50+git
- (optional|c++)"non-virtual thunk to KTextEditVT::~KTextEditVT()@Base" 5.2.50+git
