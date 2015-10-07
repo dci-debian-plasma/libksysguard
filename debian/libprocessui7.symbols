@@ -144,4 +144,4 @@ libprocessui.so.7 libprocessui7 #MINVER#
  _ZTV13ProcessFilter@Base 5.2.50+git
  _ZTV20KSysGuardProcessList@Base 5.2.50+git
  (c++)"non-virtual thunk to KSysGuardProcessList::~KSysGuardProcessList()@Base" 5.2.50+git
- (optional)(c++)"non-virtual thunk to KTextEditVT::~KTextEditVT()@Base" 5.2.50+git
+ (optional|c++)"non-virtual thunk to KTextEditVT::~KTextEditVT()@Base" 5.2.50+git
