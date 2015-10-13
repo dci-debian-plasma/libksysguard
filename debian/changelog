@@ -1,6 +1,13 @@
-libksysguard (4:5.4.2-0ubuntu2) UNRELEASED; urgency=medium
+libksysguard (4:5.4.2-0ubuntu2) wily; urgency=medium
 
+  [ Harald Sitter ]
   * Annotate symbol correctly to fix dpkg-gensymbols build failure
+
+  [ José Manuel Santamaría Lema ]
+  * Bump libkf5sysguard-bin Breaks/Replaces against libkf5sysguard5 to
+    (<< 4:5.4.2) previous version was 4:5.2.0, however there is a
+    libkf5sysguard5 4:5.2.2 in vivid still providing a file which was moved
+    later to libkf5sysguard-bin.
 
  -- Harald Sitter <sitter@kde.org>  Wed, 07 Oct 2015 06:38:47 +0200
 
