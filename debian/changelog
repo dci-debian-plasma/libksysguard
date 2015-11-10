@@ -11,6 +11,12 @@ libksysguard (4:5.4.3-0ubuntu1) UNRELEASED; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Nov 2015 16:36:37 -0800
 
+libksysguard (4:5.4.2-0ubuntu3) xenial; urgency=medium
+
+  * Fix autopackagetests by adding allow-stderr to the requirements.
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 03 Nov 2015 15:34:53 +0100
+
 libksysguard (4:5.4.2-0ubuntu2) wily; urgency=medium
 
   [ Harald Sitter ]
