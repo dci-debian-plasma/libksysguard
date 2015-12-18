@@ -1,9 +1,9 @@
-libksysguard (4:5.5.80-0ubuntu1) UNRELEASED; urgency=medium
+libksysguard (4:5.4.3-0ubuntu2) UNRELEASED; urgency=medium
 
-  [ Harald Sitter ]
-  * Multi-arch the package
+  * Revert package version bump. Stable should *NOT* be
+    the same version as master. 
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 17 Sep 2015 12:09:51 +0100
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 18 Dec 2015 09:06:04 -0800
 
 libksysguard (4:5.4.3-0ubuntu1) xenial; urgency=medium
 
