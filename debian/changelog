@@ -1,9 +1,10 @@
-libksysguard (4:5.4.3-0ubuntu2) UNRELEASED; urgency=medium
+libksysguard (4:5.5.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * Revert package version bump. Stable should *NOT* be
     the same version as master. 
+  * New upstream release Xenial
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 18 Dec 2015 09:06:04 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 18 Dec 2015 09:10:17 -0800
 
 libksysguard (4:5.4.3-0ubuntu1) xenial; urgency=medium
 
