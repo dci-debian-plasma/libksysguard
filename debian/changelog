@@ -9,7 +9,16 @@ libksysguard (4:5.5.3-0ubuntu1) UNRELEASED; urgency=medium
   * new upstream release
   * New upstream release
 
+  [ Scarlett Clark ]
+  * Debian merge, No remaining changes. 
+
  -- Clive Johnston <clivejo@aol.com>  Thu, 07 Jan 2016 17:58:16 +0000
+
+libksysguard (4:5.4.3-1) unstable; urgency=medium
+
+  * New upstream release (5.4.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Dec 2015 11:46:08 +0100
 
 libksysguard (4:5.4.3-0ubuntu1) xenial; urgency=medium
 
@@ -20,6 +29,13 @@ libksysguard (4:5.4.3-0ubuntu1) xenial; urgency=medium
   * New upstream bugfix release (LP: #1518598)
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 22 Nov 2015 16:37:00 +0100
+
+libksysguard (4:5.4.2-1) unstable; urgency=medium
+
+  * New upstream release (5.4.2).
+  * Update symbols files from buildds logs (4:5.4.1-1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 06 Oct 2015 07:52:26 +0200
 
 libksysguard (4:5.4.2-0ubuntu3) xenial; urgency=medium
 
@@ -52,11 +68,24 @@ libksysguard (4:5.4.2-0ubuntu1) wily; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 02 Oct 2015 15:58:02 +0100
 
+libksysguard (4:5.4.1-1) unstable; urgency=medium
+
+  * New upstream release (5.4.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Sep 2015 18:45:45 +0200
+
 libksysguard (4:5.4.1-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 08 Sep 2015 10:20:53 +0100
+
+libksysguard (4:5.4.0-1) unstable; urgency=medium
+
+  * New upstream release (5.4.0).
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 03 Sep 2015 17:37:13 +0200
 
 libksysguard (4:5.4.0-0ubuntu1) wily; urgency=medium
 
@@ -69,6 +98,19 @@ libksysguard (4:5.3.95-0ubuntu1) wily; urgency=medium
   * new upstream beta release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 23:17:39 +0200
+
+libksysguard (4:5.3.2-2) unstable; urgency=medium
+
+  * Add the missing Breaks/Replaces. (Closes: #790920, #790802)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 14:07:56 +0200
+
+libksysguard (4:5.3.2-1) unstable; urgency=medium
+
+  * New upstream release (5.3.2).
+  * Update copyright information.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 23:15:57 +0200
 
 libksysguard (4:5.3.2-0ubuntu2) wily; urgency=medium
 
@@ -98,19 +140,23 @@ libksysguard (4:5.3.1-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
   * Vivid backport
-  * wrap-and-sort 
+  * wrap-and-sort
 
   [ Jonathan Riddell ]
   * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 05 Jun 2015 02:36:19 +0200
 
+<<<<<<<
 libksysguard (4:5.3.1-1~) wily; urgency=medium
+=======
+libksysguard (4:5.3.1-1) unstable; urgency=medium
+>>>>>>>
 
   * New upstream release (5.3.0).
   * New upstream release (5.3.1).
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:59:50 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 10:35:19 +0200
 
 libksysguard (4:5.2.2-1) experimental; urgency=medium
 

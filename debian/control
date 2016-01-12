@@ -20,15 +20,14 @@ Build-Depends: cmake (>= 2.8.12),
                libqt5x11extras5-dev (>= 5.4),
                libx11-dev,
                libz-dev,
-               pkg-kde-tools (>= 0.15.16),
-               plasma-framework-dev (>= 5.18.0~),
+               pkg-kde-tools (>= 0.15.18~),
+               plasma-framework-dev (>= 5.2.0),
                qtbase5-dev (>= 5.4),
                qtscript5-dev (>= 5.4),
                xauth,
                xvfb,
                zlib1g-dev
 Standards-Version: 3.9.6
-XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/workspace/libksysguard
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/libksysguard.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/libksysguard.git
@@ -143,10 +142,12 @@ Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: ksysguard (<< 4:5.0.0),
         libkf5sysguard-bin (<< 4:5.0.95),
-        libkf5sysguard5-data (<< 4:5.3.2)
+        libkf5sysguard5-data (<< 4:5.2.0),
+        ${kde-l10n:all}
 Replaces: ksysguard (<< 4:5.0.0),
           libkf5sysguard-bin (<< 4:5.0.95),
-          libkf5sysguard5-data (<< 4:5.3.2)
+          libkf5sysguard5-data (<< 4:5.2.0),
+          ${kde-l10n:all}
 Description: library for monitoring your system - shared library
  KSysGuard is a program to monitor various elements of your system, or any
  other remote system with the KSysGuard daemon (ksysgardd) installed.

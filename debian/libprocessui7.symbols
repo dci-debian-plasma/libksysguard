@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.4.2+git20151007.0523 amd64 i386
+# SymbolsHelper-Confirmed: 4:5.4.1 amd64 arm64 armel armhf hppa i386 mips mipsel powerpc ppc64 ppc64el s390x
 libprocessui.so.7 libprocessui7 #MINVER#
  _ZN11KTextEditVT11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.50+git
  _ZN11KTextEditVT11qt_metacastEPKc@Base 5.2.50+git
@@ -81,7 +81,7 @@ libprocessui.so.7 libprocessui7 #MINVER#
  _ZN20KSysGuardProcessListD2Ev@Base 5.2.50+git
  _ZNK11KTextEditVT10metaObjectEv@Base 5.2.50+git
  _ZNK11KTextEditVT20parseAnsiEscapeCodesEv@Base 5.2.50+git
- (optional=templinst)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 5.2.50+git
+ (optional=templinst|arch=!arm64)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 5.2.50+git
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 5.2.50+git
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 5.2.50+git
  _ZNK12ProcessModel10headerDataEiN2Qt11OrientationEi@Base 5.2.50+git

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.4.1+git20150924.0048 amd64 i386
+# SymbolsHelper-Confirmed: 4:5.4.1 amd64 arm64 armel armhf hppa i386 mips mipsel powerpc ppc64 ppc64el s390x
 libksgrd.so.7 libksgrd7 #MINVER#
  _ZN5KSGRD11SensorAgent11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.50+git
  _ZN5KSGRD11SensorAgent11qt_metacastEPKc@Base 5.2.50+git
