@@ -12,6 +12,7 @@ libksysguard (4:5.5.80-0ubuntu2) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Debian merge, No remaining changes. 
   * Bump the version, somehow the ppa version is changes to this....
+  * Merge unstable into archive for debian merge. 
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 07 Jan 2016 17:58:16 +0000
 
