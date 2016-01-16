@@ -1,4 +1,4 @@
-libksysguard (4:5.5.3-0ubuntu2) UNRELEASED; urgency=medium
+libksysguard (4:5.5.3-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Revert package version bump. Stable should *NOT* be
