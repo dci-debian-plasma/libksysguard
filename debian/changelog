@@ -157,7 +157,6 @@ libksysguard (4:5.3.1-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 05 Jun 2015 02:36:19 +0200
 
-libksysguard (4:5.3.1-1~) wily; urgency=medium
 libksysguard (4:5.3.1-1) unstable; urgency=medium
 
   * New upstream release (5.3.0).
