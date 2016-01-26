@@ -45,6 +45,8 @@ Depends: libkf5config-dev,
          libprocessui7 (= ${binary:Version}),
          qtbase5-dev (>= 5.4),
          ${misc:Depends}
+Breaks: kde-workspace-dev
+Replaces: kde-workspace-dev
 Conflicts: kde-workspace-dev
 Description: library for monitoring your system - development files
  KSysGuard is a program to monitor various elements of your system, or any
