@@ -155,16 +155,3 @@ Architecture: all
 Depends: libkf5sysguard-data (>= ${source:Version}), ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
-
-Package: libkf5sysguard-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Depends: libprocessui7 (= ${binary:Version}) | libprocesscore7 (= ${binary:Version}) | liblsofui7 (= ${binary:Version}) | libksignalplotter7 (= ${binary:Version}) | libksgrd7 (= ${binary:Version}),
-         ${misc:Depends}
-Recommends: libqt5-dbg
-Description: library for monitoring your system - debug info
- KSysGuard is a program to monitor various elements of your system, or any
- other remote system with the KSysGuard daemon (ksysgardd) installed.
- .
- This package contains the debugging symbols.
