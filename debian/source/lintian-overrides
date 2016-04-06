@@ -1,1 +1,3 @@
 libksysguard source: no-human-maintainers
+# False positive. This is the actual source file. It just has a very long line.
+libksysguard source: source-is-missing scripts/smaps/main.js
