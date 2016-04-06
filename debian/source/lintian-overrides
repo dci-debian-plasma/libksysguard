@@ -1,3 +1,3 @@
 libksysguard source: no-human-maintainers
 # False positive. This is the actual source file. It just has a very long line.
-libksysguard source: source-is-missing scripts/smaps/main.js
+libksysguard source: source-is-missing scripts/smaps/main.js line length is 366 characters (>256)
