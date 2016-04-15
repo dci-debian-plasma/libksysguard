@@ -5,11 +5,19 @@ libksysguard (4:5.5.80-0ubuntu1) UNRELEASED; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 15 Jan 2016 14:45:47 -0800
 
-libksysguard (4:5.5.5-0ubuntu1) UNRELEASED; urgency=medium
+libksysguard (4:5.5.5-0ubuntu2) UNRELEASED; urgency=medium
+
+  * Add upstream patch to fix build with new libc6.
+     
+  * Add files. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 14 Apr 2016 18:23:55 -0700
+
+libksysguard (4:5.5.5-0ubuntu1) xenial; urgency=medium
 
   * New upstream bugfix release
 
- -- Philip Muškovac <yofel@kubuntu.org>  Tue, 08 Mar 2016 22:31:49 +0100
+ -- Philip Muškovac <yofel@kubuntu.org>  Thu, 14 Apr 2016 13:48:33 -0700
 
 libksysguard (4:5.5.4-0ubuntu1) xenial; urgency=medium
 
