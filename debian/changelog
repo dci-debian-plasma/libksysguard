@@ -1,11 +1,23 @@
-libksysguard (4:5.6.2-1~1.gbpc5b47e) UNRELEASED; urgency=medium
+libksysguard (4:5.6.2-1~2.gbp99001c) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @99001cc121523cc9f124701a8db0894be6cc1762 **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @c5b47e10cc522080ce86dff869fb1b8442db2767 **
 
   * New upstream release (5.5.5).
   * New upstream release (5.6.2).
+  * uscan no longer supports this kind of watch files.
+  * New upstream release (5.5.5).
+  * Automatic update with ddeb_migration3.py
+  * Add upstream metadata (DEP-12)
+  * New upstream release (5.6.2).
+  * Add source js lintian-override
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 06 Apr 2016 23:15:31 +0200
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 17 Apr 2016 14:13:21 +0200
 
 libksysguard (4:5.5.4-1) experimental; urgency=medium
 
