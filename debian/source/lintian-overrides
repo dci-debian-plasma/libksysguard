@@ -1,1 +1,2 @@
-libksysguard source: no-human-maintainers
+# This is the source code
+libksysguard source: source-is-missing scripts/smaps/main.js *
