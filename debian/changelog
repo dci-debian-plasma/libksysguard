@@ -1,6 +1,6 @@
-libksysguard (4:5.6.2-1~2.gbp99001c) UNRELEASED; urgency=medium
+libksysguard (4:5.6.3-1~1.gbpefa4cb) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @99001cc121523cc9f124701a8db0894be6cc1762 **
+  ** SNAPSHOT build @efa4cb1c899eea84aca17f3ff1c05c136d9369ea **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @c5b47e10cc522080ce86dff869fb1b8442db2767 **
@@ -13,11 +13,12 @@ libksysguard (4:5.6.2-1~2.gbp99001c) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * New upstream release (5.6.2).
   * Add source js lintian-override
+  * UNRELEASED
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 17 Apr 2016 14:13:21 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 19 Apr 2016 17:15:18 +0200
 
 libksysguard (4:5.5.4-1) experimental; urgency=medium
 
