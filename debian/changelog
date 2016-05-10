@@ -1,6 +1,6 @@
-libksysguard (4:5.6.3-1~2.gbp5d6a69) UNRELEASED; urgency=medium
+libksysguard (4:5.6.4-1~1.gbp856011) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @5d6a69ca7063ac036e483eb40d383887562549c6 **
+  ** SNAPSHOT build @856011fab938d75ee7304d18604488dd7951440f **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @c5b47e10cc522080ce86dff869fb1b8442db2767 **
@@ -15,11 +15,12 @@ libksysguard (4:5.6.3-1~2.gbp5d6a69) UNRELEASED; urgency=medium
   * Add source js lintian-override
   * UNRELEASED
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * UNRELEASED
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:15:18 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 23:15:47 +0200
 
 libksysguard (4:5.5.4-1) experimental; urgency=medium
 
