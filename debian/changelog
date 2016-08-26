@@ -1,14 +1,9 @@
-libksysguard (4:5.7.4-1~2.gbpeb5664) UNRELEASED; urgency=medium
+libksysguard (4:5.7.4-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @eb5664c489222c502e7d62ec4c4b772966b15d4e **
-
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
+  * New upstream release (5.7.4)
   * Bump group breaks (5.7)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 26 Aug 2016 11:15:23 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 26 Aug 2016 15:05:10 +0200
 
 libksysguard (4:5.7.0-1) unstable; urgency=medium
 
