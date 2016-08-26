@@ -1,13 +1,14 @@
-libksysguard (4:5.7.4-1~1.gbp2d3eaa) UNRELEASED; urgency=medium
+libksysguard (4:5.7.4-1~2.gbpeb5664) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @2d3eaa1a282089eff853fe6c4b0351b82923d10b **
+  ** SNAPSHOT build @eb5664c489222c502e7d62ec4c4b772966b15d4e **
 
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * Bump group breaks (5.7)
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 24 Aug 2016 23:15:15 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 26 Aug 2016 11:15:23 +0200
 
 libksysguard (4:5.7.0-1) unstable; urgency=medium
 
