@@ -1,10 +1,11 @@
-libksysguard (4:5.7.5-1~1.gbp0d78b4) UNRELEASED; urgency=medium
+libksysguard (4:5.8.0-1~1.gbp6fd7b7) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @0d78b4201e809c6aaf80d3c9563dda169a391335 **
+  ** SNAPSHOT build @6fd7b7631500b43c0b4a5576057e2f9b93ebb99d **
 
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 13 Sep 2016 17:15:54 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 04 Oct 2016 13:41:03 +0200
 
 libksysguard (4:5.7.4-1) unstable; urgency=medium
 
