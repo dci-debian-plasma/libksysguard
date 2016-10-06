@@ -1,6 +1,6 @@
-libksysguard (4:5.8.0-1~2.gbpe0a822) UNRELEASED; urgency=medium
+libksysguard (4:5.8.0-1~3.gbp7f0148) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @e0a8225cd755d0d871fa7bd16e818638d8b8a307 **
+  ** SNAPSHOT build @7f01483c357ee7a332448b89951fb6178eaf3553 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @6fd7b7631500b43c0b4a5576057e2f9b93ebb99d **
@@ -8,11 +8,12 @@ libksysguard (4:5.8.0-1~2.gbpe0a822) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * Replace dbus-launch with dbus-run-session in tests
+  * UNRELEASED
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 05 Oct 2016 19:15:29 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 06 Oct 2016 11:15:29 +0200
 
 libksysguard (4:5.7.4-1) unstable; urgency=medium
 
