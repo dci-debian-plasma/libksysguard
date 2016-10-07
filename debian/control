@@ -45,7 +45,7 @@ Depends: libkf5config-dev,
          libprocessui7 (= ${binary:Version}),
          qtbase5-dev (>= 5.4),
          ${misc:Depends}
-Breaks: kde-workspace-dev, plasma-workspace-dev (<< 4:5.7)
+Breaks: kde-workspace-dev, plasma-workspace-dev (<< 4:5.8)
 Replaces: kde-workspace-dev
 Conflicts: kde-workspace-dev
 Description: library for monitoring your system - development files
@@ -85,7 +85,7 @@ Description: library for monitoring your system - shared library
  other remote system with the KSysGuard daemon (ksysgardd) installed.
  .
  This package contains the shared library
-Breaks: ksysguard (<< 4:5.7), plasma-workspace (<< 4:5.7)
+Breaks: ksysguard (<< 4:5.8), plasma-workspace (<< 4:5.8)
 
 Package: libksignalplotter7
 Architecture: any
@@ -98,7 +98,7 @@ Description: library for monitoring your system - shared library
  other remote system with the KSysGuard daemon (ksysgardd) installed.
  .
  This package contains the shared library
-Breaks: ksysguard (<< 4:5.7)
+Breaks: ksysguard (<< 4:5.8)
 
 Package: liblsofui7
 Architecture: any
@@ -121,10 +121,10 @@ Description: library for monitoring your system - shared library
  other remote system with the KSysGuard daemon (ksysgardd) installed.
  .
  This package contains the shared library
-Breaks: ksysguard (<< 4:5.7),
+Breaks: ksysguard (<< 4:5.8),
         liblegacytaskmanager5 (<< 4:5.7),
-        libtaskmanager6 (<< 4:5.7),
-        plasma-workspace (<< 4:5.7)
+        libtaskmanager6 (<< 4:5.8),
+        plasma-workspace (<< 4:5.8)
 
 Package: libprocessui7
 Architecture: any
@@ -136,7 +136,7 @@ Description: library for monitoring your system - shared library
  other remote system with the KSysGuard daemon (ksysgardd) installed.
  .
  This package contains the shared library
-Breaks: ksysguard (<< 4:5.7), plasma-workspace (<< 4:5.7)
+Breaks: ksysguard (<< 4:5.8), plasma-workspace (<< 4:5.8)
 
 Package: libkf5sysguard-data
 Architecture: all
