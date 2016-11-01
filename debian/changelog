@@ -1,3 +1,11 @@
+libksysguard (4:5.8.3-1~1.gbpe1c67e) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @e1c67ecb5f11f1814f426415aed99288d7740101 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 01 Nov 2016 17:15:47 +0100
+
 libksysguard (4:5.8.2-1) unstable; urgency=medium
 
   * New upstream release (5.8.2)
