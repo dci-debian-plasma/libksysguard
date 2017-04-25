@@ -38,6 +38,7 @@ Architecture: any
 Multi-Arch: no
 Depends: libkf5config-dev,
          libkf5i18n-dev,
+         libkf5iconthemes-dev,
          libkf5sysguard-bin (= ${binary:Version}),
          libksgrd7 (= ${binary:Version}),
          libksignalplotter7 (= ${binary:Version}),
