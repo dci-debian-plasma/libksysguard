@@ -10,8 +10,9 @@ libksysguard (4:5.8.7-1~) UNRELEASED; urgency=medium
         when the focus was gained by click rather than keyboard
         navigation, and was often seen as a bug.
         Fixes KDE#363420
+  * Drop upstream applied patch: Drop-html-markup-from-polkit-action-file.patch
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Jun 2017 12:44:00 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Jun 2017 12:49:51 +0200
 
 libksysguard (4:5.8.5-1) experimental; urgency=medium
 
