@@ -1,3 +1,18 @@
+libksysguard (4:5.8.7-1~) UNRELEASED; urgency=medium
+
+  * Add new patch: Drop-html-markup-from-polkit-action-file.patch.
+    Thanks to Michael Biebl for reporting (Closes: 696905)
+  * New upstream release (5.8.7)
+     + Don't reset the view to the top on gaining focus
+        when the listview gained focus, it used to reset
+        the view position to the first element, but this both lost the
+        previously selected item and was a really weird behavior especially
+        when the focus was gained by click rather than keyboard
+        navigation, and was often seen as a bug.
+        Fixes KDE#363420
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Jun 2017 12:44:00 +0200
+
 libksysguard (4:5.8.5-1) experimental; urgency=medium
 
   * New upstream release (5.8.5).
