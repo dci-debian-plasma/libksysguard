@@ -27,7 +27,7 @@ Build-Depends: cmake (>= 2.8.12),
                xauth,
                xvfb,
                zlib1g-dev
-Standards-Version: 3.9.8
+Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/kde/workspace/libksysguard
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/plasma/libksysguard.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/plasma/libksysguard.git
