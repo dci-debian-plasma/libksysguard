@@ -85,7 +85,7 @@ Description: library for monitoring your system - development files
  This package contains the files necessary for development.
 
 Package: libkf5sysguard5
-Priority: extra
+Priority: optional
 Section: oldlibs
 Architecture: all
 Depends: libkf5sysguard-bin (>= ${source:Version}), ${misc:Depends}
@@ -94,7 +94,7 @@ Description: transitional dummy package
 
 Package: libkf5sysguard5-data
 Section: oldlibs
-Priority: extra
+Priority: optional
 Architecture: all
 Depends: libkf5sysguard-data (>= ${source:Version}), ${misc:Depends}
 Description: transitional dummy package
