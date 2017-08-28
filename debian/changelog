@@ -1,4 +1,4 @@
-libksysguard (4:5.10.5-1~) UNRELEASED; urgency=medium
+libksysguard (4:5.10.5-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.10.3).
@@ -9,11 +9,12 @@ libksysguard (4:5.10.5-1~) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
   * Set Priority to optional
   * New upstream release (5.10.5).
+  * Release to experimental
 
   [ Jonathan Riddell ]
   * update watch file to version=4 with pgp signature checking
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 27 Aug 2017 12:50:52 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Aug 2017 15:28:38 +0200
 
 libksysguard (4:5.8.7-1) unstable; urgency=medium
 
