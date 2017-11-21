@@ -69,7 +69,7 @@ Description: library for monitoring your system - shared library
  This package contains the shared library
 
 Package: libkf5sysguard5
-Priority: extra
+Priority: optional
 Section: oldlibs
 Architecture: all
 Depends: libkf5sysguard-bin (>= ${source:Version}), ${misc:Depends}
@@ -176,3 +176,4 @@ Description: library for monitoring your system - debug info
  other remote system with the KSysGuard daemon (ksysgardd) installed.
  .
  This package contains the debugging symbols.
+
