@@ -1,8 +1,14 @@
-libksysguard (4:5.11.4-1~) UNRELEASED; urgency=medium
+libksysguard (4:5.11.4-1) experimental; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (5.11.4).
+  * Bump Standards-Version to 4.1.2.
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Dec 2017 15:41:59 -0300
+  [ Helmut Grohne ]
+  * Mark libkf5sysguard-data Multi-Arch: foreign. (Closes: 879890)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 03 Jan 2018 16:49:06 -0300
 
 libksysguard (4:5.10.5-2) sid; urgency=medium
 
