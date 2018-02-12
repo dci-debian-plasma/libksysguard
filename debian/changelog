@@ -1,10 +1,11 @@
-libksysguard (4:5.12.0-3~) UNRELEASED; urgency=medium
+libksysguard (4:5.12.0-3) sid; urgency=medium
 
   * New revision
   * Update install files
   * Ignore xvfb messages in the tests
+  * Release to sid
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Feb 2018 17:48:50 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Feb 2018 17:48:57 +0100
 
 libksysguard (4:5.12.0-2) sid; urgency=medium
 
