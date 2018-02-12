@@ -1,7 +1,7 @@
 Tests: testsuite
 Depends: @builddeps@, build-essential,
          xvfb, xauth, dbus (>= 1.8), openbox
-Restrictions: rw-build-tree
+Restrictions: rw-build-tree, allow-stderr
 
 Tests: acc
 Depends: @, dh-acc, exuberant-ctags
