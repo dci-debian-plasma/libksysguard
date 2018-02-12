@@ -1,8 +1,9 @@
-libksysguard (4:5.12.0-2~) UNRELEASED; urgency=medium
+libksysguard (4:5.12.0-2) sid; urgency=medium
 
   * New revision
+  * Release to sid
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Feb 2018 16:02:06 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Feb 2018 16:03:45 +0100
 
 libksysguard (4:5.12.0-1) experimental; urgency=medium
 
