@@ -1,1 +1,1 @@
-usr/lib/*/libexec/kauth/ksysguardprocesslist_helper
+usr/lib/kauth/libexec/ksysguardprocesslist_helper
